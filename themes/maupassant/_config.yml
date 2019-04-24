@@ -27,15 +27,15 @@ valine: ## https://valine.js.org
   pageSize: 10 ## Number of comments per page.
   guest_info: nick,mail,link ## Attributes of reviewers.
 
-google_search: true ## Use Google search, true/false.
-baidu_search: false ## Use Baidu search, true/false.
+google_search: false ## Use Google search, true/false.
+baidu_search: true ## Use Baidu search, true/false.
 swiftype: ## Your swiftype_key, e.g. m7b11ZrsT8Me7gzApciT
 tinysou: ## Your tinysou_key, e.g. 4ac092ad8d749fdc6293
 self_search: false ## Use a jQuery-based local search engine, true/false.
 google_analytics: ## Your Google Analytics tracking id, e.g. UA-42425684-2
 baidu_analytics: ## Your Baidu Analytics tracking id, e.g. 8006843039519956000
 fancybox: true ## If you want to use fancybox please set the value to true.
-show_category_count: false ## If you want to show the count of categories in the sidebar widget please set the value to true.
+show_category_count: true ## If you want to show the count of categories in the sidebar widget please set the value to true.
 toc_number: true ## If you want to add list number to toc please set the value to true.
 shareto: false ## If you want to use the share button please set the value to true, and you must have hexo-helper-qrcode installed.
 busuanzi: false ## If you want to use Busuanzi page views please set the value to true.
@@ -61,13 +61,13 @@ post_copyright:
   copyright_text: ## Your copyright text, e.g. The author owns the copyright, please indicate the source reproduced.
 
 menu:
-  - page: home
+  - page: 首页
     directory: .
     icon: fa-home
-  - page: archive
+  - page: 归档
     directory: archives/
     icon: fa-archive
-  - page: about
+  - page: 关于
     directory: about/
     icon: fa-user
   - page: rss
