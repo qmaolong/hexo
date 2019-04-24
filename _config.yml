@@ -79,5 +79,6 @@ theme: maupassant
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/qmaolong/qmaolong.github.io
-  branch: master
+  repo: 
+    github: https://github.com/qmaolong/qmaolong.github.io,master
+#    coding: https://git.dev.tencent.com/qmaolong/hexo.git,master
