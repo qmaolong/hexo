@@ -4,7 +4,7 @@
 
 # Site
 title: Nick61ba's
-subtitle: 如果不能变得有才，那就变得有趣
+subtitle: 记录本身 即已是反抗
 description:
 keywords:
 author: Mllllll
@@ -72,6 +72,12 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+plugin:
+- hexo-generator-feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
 ## Themes: https://hexo.io/themes/
 theme: maupassant
 
@@ -81,4 +87,4 @@ deploy:
   type: git
   repo: 
     github: https://github.com/qmaolong/qmaolong.github.io,master
-#    coding: https://git.dev.tencent.com/qmaolong/hexo.git,master
+    coding: https://git.dev.tencent.com/qmaolong/hexo.git,master
