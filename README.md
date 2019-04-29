@@ -1,27 +1,23 @@
-# hexo
+## 操作说明
 
-#### 1、安装nodejs
+### 1、安装NodeJS
 
 ……
 
-#### 2、安装hexo：
+### 2、安装Hexo
 
 `npm install hexo-cli -g`
 
-#### 3、之后，已经不需要初始化了，直接在任意文件夹下恢复文件：
+### 3、clone代码
 
 `git clone https://github.com/qmaolong/hexo.git`
 
-#### 4、然后进入文件夹，安装所需的node组件（组件详情见package.json)：
+### 4、进入文件夹，根据package.json安装所需的ode组件
 
 `npm install`
 
-#### 5、生成，部署：
+### 5、生成，部署
 ```
 hexo g
 hexo d
 ```
-
-6、然后就可以开始写你的新博客了：
-
-`hexo new newpage`
