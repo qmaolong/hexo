@@ -21,3 +21,5 @@
 hexo g
 hexo d
 ```
+
+> 主题文档：https://www.haomwei.com/technology/maupassant-hexo.html
