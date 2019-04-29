@@ -88,3 +88,6 @@ deploy:
   repo: 
     github: https://github.com/qmaolong/qmaolong.github.io,master
     coding: https://git.dev.tencent.com/qmaolong/hexo.git,master
+
+search:
+  path: /
