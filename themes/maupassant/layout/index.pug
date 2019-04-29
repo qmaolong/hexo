@@ -42,7 +42,7 @@ block content
           .post-content
             != post.content.substring(0, br)
       p(class='readmore')
-        a(href=url_for(post.path))= __('阅读全文')
+        a(href=url_for(post.path))= __('Readmore')
 
   include _partial/paginator.pug
   if theme.disqus

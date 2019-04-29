@@ -61,13 +61,13 @@ post_copyright:
   copyright_text: ## Your copyright text, e.g. The author owns the copyright, please indicate the source reproduced.
 
 menu:
-  - page: 首页
+  - page: 'home'
     directory: .
     icon: fa-home
-  - page: 归档
+  - page: 'archive'
     directory: archives/
     icon: fa-archive
-  - page: 关于
+  - page: 'about'
     directory: about/
     icon: fa-user
   - page: rss
@@ -87,8 +87,8 @@ links:
     url: https://blog.mythsman.com/archives/
   - title: 屠城
     url: https://www.haomwei.com/
-#  - title: Ivy-End
-#    url: http://www.ivy-end.com/
+  - title: Ivy-End
+    url: http://www.ivy-end.com/
   - title: Nikkkki's Notes
     url: https://xuquan.site/archives/
 
