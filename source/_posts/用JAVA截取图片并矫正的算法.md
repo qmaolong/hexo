@@ -1,9 +1,9 @@
----
-title: 用JAVA截取图片并矫正的算法
+﻿---
+title: 一种图片截取并矫正的算法（in Java）
 date: 2019-05-26 17:08:17
 tags:
 - 算法
-- JAVA
+- Java
 - 图像处理
 categories:
 - 技术
