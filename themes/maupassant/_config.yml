@@ -67,12 +67,12 @@ menu:
   - page: 'archive'
     directory: archives/
     icon: fa-archive
+  - page: history
+    directory: history/
+    icon: fa-history
   - page: 'about'
     directory: about/
     icon: fa-user
-  - page: rss
-    directory: atom.xml
-    icon: fa-rss
 
 widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, rencent_comments and links.
   - search
@@ -94,13 +94,17 @@ links:
 
 timeline:
   - num: 1
-    word: 2014/06/12-Start
+    word: 2017/03/07-搭建基于Jekyll的静态博客，部署于github pages，绑定域名qmaolong.cn
   - num: 2
-    word: 2014/11/29-XXX
+    word: 2018/04/24-放弃Jekyll转向Hexo
   - num: 3
-    word: 2015/02/18-DDD
+    word: 2018/10/29-DNS服务商转到Cloudflare，正式接入免费SSL证书
   - num: 4
-    word: More
+    word: 2018/04/29-部署到腾讯开发者平台（个人版），DNS转回阿里云进行分流，国内线路解析到腾讯云（香港服务器），国外线路解析到github（github和腾讯开发者平台都支持提供免费SSL证书）
+  - num: 5
+    word: 2018/10/30腾讯开发者平台改版，部署到新版开发者平台（收购coding.net以后的产物）
+  - num: 6
+    word: 2020/01/15-发现腾讯云开发者部署加上敏感词和谐功能，国内外线路全线切回github，只留百度一条线路解析到腾讯云，之所以对百度特殊处理的原因在于github封禁了百度爬虫的IP访问
 
 # Static files
 js: js

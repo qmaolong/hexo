@@ -4,6 +4,10 @@
 
 ……
 
+切换npm源到淘宝
+
+`npm config set registry https://registry.npm.taobao.org`
+
 ### 2、安装Hexo
 
 `npm install hexo-cli -g`

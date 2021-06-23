@@ -5,15 +5,15 @@
 # Site
 title: Nick61ba's
 subtitle: 记录本身 即已是反抗
-description: 邱茂龙,茂龙,博客,邱茂龙的博客,Nick61ba,你可拉倒吧,Nick61ba的博客,Nick61ba's blog,qiumaolong,qmaolong,qmaolong.cn,IT,福建厦门,程序员
-keywords: 邱茂龙,茂龙,博客,邱茂龙的博客,Nick61ba,你可拉倒吧,Nick61ba的博客,Nick61ba's blog,qiumaolong,qmaolong,qmaolong.cn,IT,福建厦门,程序员
+description: 颜值不及格，打架没赢过；IT庸才，没意见领袖。总之，谢谢你来看我。
+keywords: 邱茂龙,茂龙,博客,邱茂龙的博客,Nick61ba,你可拉倒吧,Nick61ba的博客,Nick61ba's blog,qiumaolong,qmaolong,qmaolong.cn,IT,Java,福建厦门,程序员
 author: 邱茂龙
 language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://qmaolong.cn
+url: qmaolong.cn
 root: / 
 permalink: :year/:month:day-:title/
 permalink_defaults:
@@ -86,8 +86,7 @@ theme: maupassant
 deploy:
   type: git
   repo: 
-    github: https://github.com/qmaolong/qmaolong.github.io,master
-    coding: https://git.dev.tencent.com/qmaolong/hexo.git,master
-
+    github: git@github.com:qmaolong/qmaolong.github.io.git,master
+    coding: git@e.coding.net:qmaolong/nick61ba.git,master
 search:
   path: /

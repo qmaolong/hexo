@@ -340,6 +340,32 @@ div {
                 }
             }
         }
+        .tagcloud {
+            margin: 0 0 30px 0;
+            a {
+                padding:0px 5px;
+                margin:3px;
+                display: inline-block;
+                border: 1px solid #808080;
+                border-radius: 999em;
+                color: #aaa;
+                &:hover {
+                    color: #fff;
+                    border: 1px solid #808080;
+                    background: #808080;
+                }
+            }
+        }
+        .one-tag-list {
+            margin: 30px 0;
+            .tag-name {
+                .tag-text{
+                    margin-left: 5px;
+                    font-size: 16px;
+                    font-weight: bold;
+                }
+            }
+        }
     }
     .tags {
         padding-bottom: 1em;
@@ -662,6 +688,7 @@ pre {
 #process .timeline-centered .timeline-entry .timeline-entry-inner {
     position: relative;
     margin-left: -20px;
+    margin-top: 10px;
 }
 #process .timeline-centered .timeline-entry .timeline-entry-inner::before,
 #process .timeline-centered .timeline-entry .timeline-entry-inner::after {
@@ -915,6 +942,7 @@ figure.highlight,
         background:   #f7f8f8;
         border-right: 1px solid #e6e6e6;
         padding:      0.3em 15px;
+        user-select:  none;
     }
     // Code container
     .code {
@@ -941,6 +969,7 @@ figure.highlight,
         font-family: Menlo, Consolas, monospace;
         font-size:   1em;
         margin:      0 0 5px 0;
+        user-select: none;
     }
 }
 
@@ -1024,6 +1053,18 @@ figure.highlight,
         }
         .number,
         .built_in {
+            color: #0086b3;
+        }
+    }
+    // Clojure
+    &.clj .code {
+        .builtin-name {
+            color: #df5000;
+        }
+        .name {
+            color: #795da3;
+        }
+        .number {
             color: #0086b3;
         }
     }
@@ -1362,6 +1403,15 @@ figure.highlight,
         .selector-class,
         .selector-tag {
             color: #795da3;
+        }
+    }
+    // Lisp
+    &.lisp .code {
+        .name {
+            color: #df5000;
+        }
+        .number {
+            color: #0086b3;
         }
     }
     // SCSS
